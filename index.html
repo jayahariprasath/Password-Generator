@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Password Generator</h1>
+    </header>
+    <section style="margin: 25px;">
+        <div id="passwordAndCopy">
+            <input type="text" id="password">
+            <button id="copy"> Copy </button>
+        </div>
+        <br>
+        <p> Password Settings </p>
+        <div id="passwordSettings">
+            <div>
+                <input type="checkbox" id="lowerCase" class="passwordSettingClass">
+                <label for="lowerCase"> Lowercase (a-z)</label>
+            </div>
+            <div><input type="checkbox" id="upperCase" class="passwordSettingClass">
+                <label for="upperCase"> Uppercase (A-Z)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="number" class="passwordSettingClass">
+                <label for="number"> Number (0-9)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="symbol" class="passwordSettingClass">
+                <label for="symbol"> Symbols (!-$^+)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="excludeDuplicates" class="passwordSettingClass">
+                <label for="excludeDuplicates"> Exclude Duplicate </label>
+            </div>
+            <div>
+                <input type="checkbox" id="includeSpaces" class="passwordSettingClass">
+                <label for="includeSpaces"> Include Spaces </label>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <button id="generatePassword"> Generate Password </button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
