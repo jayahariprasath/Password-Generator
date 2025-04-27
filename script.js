@@ -39,7 +39,7 @@ function finalString(){
         resultString += randomString(numbers);
         finalAnsString += numbers;
     }
-    if(symbolCheckBox.checked){
+    if(symbolCheckBox.checked){git push
         resultString += randomString(specialCharacters);
         finalAnsString += specialCharacters;
     }
@@ -54,7 +54,6 @@ function finalString(){
 
     let exclude_duplicate = document.getElementById("excludeDuplicates");
     let passwordStatus = checkedDuplicate(resultString);
-    console.log(passwordStatus);
 
     while(exclude_duplicate.checked==true && passwordStatus==false){
         finalString();
