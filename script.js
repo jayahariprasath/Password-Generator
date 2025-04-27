@@ -77,7 +77,6 @@ function copyPassword(){
 
 function checkedDuplicate(passwordToBeChecked){
     let obj = {}
-    console.log(passwordToBeChecked);
     let length = passwordToBeChecked.length;
     for(let i=0;i<length;i++){
         console.log(passwordToBeChecked[i]);
