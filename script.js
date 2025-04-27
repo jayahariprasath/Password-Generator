@@ -39,7 +39,7 @@ function finalString(){
         resultString += randomString(numbers);
         finalAnsString += numbers;
     }
-    if(symbolCheckBox.checked){git push
+    if(symbolCheckBox.checked){
         resultString += randomString(specialCharacters);
         finalAnsString += specialCharacters;
     }
