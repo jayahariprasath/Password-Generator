@@ -47,7 +47,6 @@ function finalString(){
         resultString += randomString(space);
         finalAnsString += space
     }
-    console.log("this is a new photo ")
 
     while(resultString.length<=12){
         resultString += randomString(finalAnsString);
