@@ -62,6 +62,7 @@ function finalString(){
     let password = document.querySelector('#password');
     password.style.color = 'white';
     password.value = resultString;
+    console.log(password.value)
     
     let copyBtn = document.querySelector('#copy');
     copyBtn.textContent = 'Copy';
