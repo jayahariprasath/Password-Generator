@@ -14,6 +14,7 @@ function finalString(){
     finalAnsString = ''
     resultString = ''
     let lowerCaseCheckBox = document.querySelector('#lowerCase');
+    console.log(lowerCaseCheckBox)
     let upperCaseCheckBox = document.querySelector('#upperCase');
     let numberCheckBox = document.querySelector('#number');
     let symbolCheckBox = document.querySelector('#symbol');
