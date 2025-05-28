@@ -7,6 +7,7 @@ let space = " ";
 function randomString(character){
     let idx = Math.floor(Math.random()*character.length);
     return character[idx];
+    console.log(idx)  // in 3255
 }
 
 function finalString(){
